@@ -18,5 +18,29 @@
       unique history and symbolism, which gives it a special meaning.
     </li>
   </ul>
-  <img src="../img/about/about_us-mob.jpg" alt="" />
+
+  <picture class="picture-about">
+    <source
+      srcset="
+        ../img/about/about_us-desktop1280.jpg   1x,
+        ../img/about/about_us-desktop12802x.jpg 2x
+      "
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="
+        ../img/about/about_us-tablet.jpg   1x,
+        ../img/about/about_us-tablet2x.jpg 2x
+      "
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="
+        ../img/about/about_us-mob.jpg   1x,
+        ../img/about/about_us-mob2x.jpg 2x
+      "
+      media="(max-width: 767px)"
+    />
+    <img src="../img/about/about_us-mob.jpg" alt="vyshyvanka" />
+  </picture>
 </section>
