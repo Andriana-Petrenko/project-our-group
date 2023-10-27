@@ -4,7 +4,6 @@
 
 .hero-title {
   width: 335px;
-  color: #fcf9f9;
   font-size: 44px;
   line-height: 1.22;
   font-weight: 400;
@@ -15,9 +14,7 @@
 
 .order-btn {
   display: inline-flex;
-  color: #fcf9f9;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.04em;
