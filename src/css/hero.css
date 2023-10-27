@@ -1,5 +1,4 @@
 .hero {
-  /* display: flex; */
   position: relative;
 }
 
@@ -17,12 +16,11 @@
 .order-btn {
   display: inline-flex;
   color: #fcf9f9;
-  color: var(--white, #fcf9f9);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   padding: 14px 36px;
   align-items: center;
@@ -32,6 +30,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   margin-bottom: 40px;
   margin-left: 70px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:hover,
@@ -48,6 +47,7 @@
 }
 
 .hero-girl {
+  border-radius: 4px;
   width: 335px;
   height: 545px;
 }
@@ -71,6 +71,7 @@
   }
 
   .order-btn {
+    font-size: 16px;
     margin-bottom: 40px;
     margin-left: 141px;
   }
@@ -114,13 +115,22 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 40px;
+    padding-top: 100px;
+  }
+
   .hero-title {
     width: 518px;
-    margin-top: 194px;
+    margin-top: 94px;
   }
 
   .order-btn {
-    margin-left: 181px;
+    margin-left: 141px;
+    margin-bottom: 0;
   }
 
   .hero-girl {
@@ -143,7 +153,7 @@
     width: 632px;
     font-size: 64px;
     line-height: 1.16;
-    margin-top: 166px;
+    margin-top: 66px;
   }
 
   .star {
