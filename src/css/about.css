@@ -51,9 +51,15 @@
     padding: 100px 32px;
     background-image: url(../img/about/ornament-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom 50px right -200px;
+    background-position: bottom 47px right -14px;
     background-size: 545px 484px;
-    /* background-position: 360px 630px; */
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-us-container {
+      background-image: url(../img/about/ornament-tablet2x.png);
+    }
   }
 
   .about-us {
@@ -71,5 +77,17 @@
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .about-us-container {
+    padding: 150px 100px;
+  }
+
+  .about-desctop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
 }
