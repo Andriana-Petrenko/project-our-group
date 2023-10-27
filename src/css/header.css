@@ -69,10 +69,141 @@
 }
 
 
+/* MOBILE_MENU */
+
+.mob-menu.is-open{
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mob-menu{
+  position: fixed;
+  background-color: #ECD979;
+  top: 0;
+  right: 0;
+  width: 274px;
+  height: 100vh;
+  padding: 20px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: auto;
+}
+.mob-container{
+  position: relative;
+}
+.top-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mob-tel{
+  margin-right: 20px;
+  display: flex;
+  padding: 12px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.10);
+
+  color: #1C2225;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  /* 116.667% */
+  text-transform: uppercase;
+  transition: 300ms border-color ease;
+}
+.mob-close-btn{
+  width: 36px;
+  height: 36px;
+  stroke: #1C2225;
+  background-color: transparent;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mob-close-icon{
+  width: 100%;
+  height: 100%;
+}
+.mob-navigation{
+  margin-top: 187px;
+}
+.mob-navigation-list{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mob-navigation-link{
+  color: #1C2225;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  /* 128.571% */
+  text-transform: uppercase;
+}
+.mob-bg-img{
+  display: block;
+  position: absolute;
+  background-image: url(../img/header/ornament-menu-mob.png);
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 302px;
+  left: 0;
+  bottom: -50px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .mob-bg-img{
+    background-image: url(../img/header/ornament-menu-mob-x2.png);
+  }
+}
+
+
 
 @media screen and (min-width:768px) {
   .header-container{
     gap: 440px;
+  }
+  .mob-menu{
+    width: 380px;
+    padding: 20px 32px;
+  }
+  .mob-tel{
+    padding: 14px 28px;
+
+    font-size: 14px;
+    line-height: 1.43;
+    /* 142.857% */
+  }
+  .mob-close-btn{
+    width: 44px;
+    height: 44px;
+  }
+  .mob-navigation-list{
+    gap: 25px;
+  }
+  .mob-bg-img{
+    width: 545px;
+    height: 484px;
+    background-image: url(../img/header/ornament-menu-tablet.png);
+    bottom: -120px;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .mob-bg-img {
+      background-image: url(../img/header/ornament-menu-tablet-x2.png);
+    }
   }
 }
 
@@ -125,6 +256,11 @@
   }
   .header-tel:hover{
     border-color: #ECD979;
+  }
+  .mob-menu.is-open {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: auto;
   }
 }
 
