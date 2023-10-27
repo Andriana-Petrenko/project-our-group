@@ -1,21 +1,138 @@
 .header {
-  padding: 20px 0;
+  padding-top: 20px;
 }
-
-.nav-list {
+.header-container{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  gap: 87px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-logo-image{
+  display: block;
+  width: 44px;
+  height: 39px;
+}
+.header-navigation{
+  display: none;
+}
+.header-tel{
+  display: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+
+.header-links-wrapper{
+  display: flex;
+  gap: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.header-social-list{
+  display: flex;
+  gap: 12px;
+  
+}
+.header-social-item{
+  width: 40px;
+  height: 40px;
+}
+.header-social-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px; 
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  background-color: rgba(252, 249, 249, 0.10);
+  transition: 300ms background-color ease, 300ms border ease;
+}
+.header-social-icon{
+  fill: #FCF9F9;
+  opacity: 0.8;
+}
+.header-social-link:hover{
+  background-color: transparent;
+  border: 1px solid #ECD979;
+}
+.header-burger-btn{
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+  
+.header-burger-icon{
+  stroke: #ECD979;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .header-container{
+    gap: 440px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .header-container{
+    gap: 0;
+  }
+  .header-burger-btn{
+    display: none;
+  }
+  .header-navigation{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 129px;
+  }
+  .header-navigation-list{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .header-navigation-link{
+    color: #FCF9F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    /* 128.571% */
+    text-transform: uppercase;
+    transition: 300ms color ease;
+  }
+  .header-navigation-link:hover{
+    color:#ECD979;
+  }
+  
+  .header-tel{
+    margin-right: 20px;
+    display: flex;
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+
+    color:  #FCF9F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.43;
+    /* 142.857% */
+    text-transform: uppercase;
+    transition: 300ms border-color ease;
+  }
+  .header-tel:hover{
+    border-color: #ECD979;
+  }
+}
+
+
+@media screen and (min-width:1440px) {
+  .header-navigation {
+      display: flex;
+      margin-left: 60px;
+      margin-right: 289px;
+    }
 }
