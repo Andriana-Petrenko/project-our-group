@@ -1,0 +1,152 @@
+.hero {
+  /* display: flex; */
+  position: relative;
+}
+
+.hero-title {
+  width: 335px;
+  color: #fcf9f9;
+  font-size: 44px;
+  line-height: 1.22;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.order-btn {
+  display: inline-flex;
+  color: #fcf9f9;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  padding: 14px 36px;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  border: 1px solid var(--yellow, #ecd979);
+}
+
+.hero-word {
+  color: #ecd979;
+}
+
+.vector-icon {
+  fill: #ecd979;
+}
+
+.hero-girl {
+  width: 335px;
+  height: 545px;
+}
+
+.star {
+  display: none;
+}
+
+.print-ukr {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    width: 549px;
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    margin-top: 106px;
+  }
+
+  .order-btn {
+    margin-bottom: 40px;
+    margin-left: 141px;
+  }
+
+  .hero-girl {
+    width: 413px;
+    height: 575px;
+  }
+
+  .star {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: -26px;
+    right: 32px;
+    width: 115px;
+  }
+
+  .star-icon {
+    fill: #ecd979;
+  }
+
+  .star-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .print-ukr {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    width: 518px;
+    margin-top: 194px;
+  }
+
+  .order-btn {
+    margin-left: 181px;
+  }
+
+  .hero-girl {
+    width: 392px;
+    height: 545px;
+  }
+
+  .star {
+    top: 114px;
+    right: 100px;
+  }
+
+  .print-ukr {
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    width: 632px;
+    font-size: 64px;
+    line-height: 1.16;
+    margin-top: 166px;
+  }
+
+  .star {
+    top: 166px;
+  }
+}
