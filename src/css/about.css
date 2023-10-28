@@ -1,7 +1,6 @@
 
 .about-us-container {
-padding-top: 80px;
-padding-bottom: 80px;
+  padding-top: 80px;
   background-image: url(../img/about/ornament-mob.png);
   background-repeat: no-repeat;
   background-size: 280px 408px;
@@ -41,12 +40,9 @@ padding-bottom: 80px;
 
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
+  
   .about-us-container {
-    padding: 100px;
+    padding-top: 100px;
     background-image: url(../img/about/ornament-tablet.png);
     background-repeat: no-repeat;
     background-position: bottom 47px right -212px;
@@ -71,15 +67,11 @@ padding-bottom: 80px;
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
-  .about-desctop {
+    .about-desctop {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -96,4 +88,10 @@ padding-bottom: 80px;
     margin-bottom: 0;
     gap: 20px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-list {
+      max-width: 481px;
+    }
 }
