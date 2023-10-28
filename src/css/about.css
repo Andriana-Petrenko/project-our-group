@@ -46,7 +46,7 @@ padding-bottom: 80px;
   }
 
   .about-us-container {
-    padding: 100px 32px;
+    padding: 100px;
     background-image: url(../img/about/ornament-tablet.png);
     background-repeat: no-repeat;
     background-position: bottom 47px right -212px;
@@ -84,8 +84,9 @@ padding-bottom: 80px;
   }
 
   .about-us-container {
-    padding: 150px 100px;
-    background-image: url(../img/about/ornament-tablet.png);
+  padding-top: 150px;
+  padding-bottom: 150px;
+      background-image: url(../img/about/ornament-tablet.png);
     background-position: right -159px bottom 50px;
     
   }
