@@ -85,6 +85,7 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: auto;
+  z-index:1;
 }
 
 .mob-menu.is-open {

@@ -1,4 +1,8 @@
 .hero {
+  padding-top: 60px;
+}
+
+.container-hero{
   position: relative;
 }
 
@@ -9,11 +13,12 @@
   letter-spacing: -0.03em;
   font-weight: 400;
   margin-bottom: 20px;
-  margin-top: 60px;
+  
 }
 
 .order-btn {
-  display: inline-flex;
+  display: flex;
+  width: 168px;
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
@@ -25,8 +30,9 @@
   background-color: transparent;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  margin: 0 auto;
   margin-bottom: 40px;
-  margin-left: 70px;
+  
   transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -59,19 +65,22 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+      padding-top: 106px;
+    }
   .hero-title {
     width: 549px;
     font-size: 54px;
     line-height: 1.19;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
-    margin-top: 106px;
   }
 
   .order-btn {
     font-size: 16px;
     margin-bottom: 40px;
     margin-left: 141px;
+    padding: 14px 39px;
   }
 
   .hero-girl {
@@ -87,7 +96,7 @@
     gap: 16px;
     position: absolute;
     top: -26px;
-    right: 32px;
+    right: 0px;
     width: 115px;
   }
 
@@ -107,7 +116,7 @@
     display: block;
     position: absolute;
     bottom: 0;
-    right: 32px;
+    right: 0;
   }
 }
 
@@ -117,7 +126,6 @@
     flex-direction: row-reverse;
     justify-content: start;
     gap: 40px;
-    padding-top: 100px;
   }
 
   .hero-title {
@@ -136,13 +144,10 @@
   }
 
   .star {
-    top: 114px;
-    right: 100px;
+    top: 14px;
+
   }
 
-  .print-ukr {
-    right: 100px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -154,6 +159,6 @@
   }
 
   .star {
-    top: 166px;
+    top: 66px;
   }
 }
