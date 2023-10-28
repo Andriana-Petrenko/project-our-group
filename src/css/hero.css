@@ -7,6 +7,7 @@
   font-size: 44px;
   line-height: 1.22;
   letter-spacing: -0.03em;
+  font-weight: 400;
   margin-bottom: 20px;
   margin-top: 60px;
 }
@@ -36,6 +37,7 @@
 
 .hero-word {
   color: #ecd979;
+
 }
 
 .vector-icon {
@@ -145,7 +147,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero-title {
-    width: 632px;
+    width: 630px;
     font-size: 64px;
     line-height: 1.16;
     margin-top: 66px;
