@@ -89,12 +89,11 @@
 
   .about-us-container {
     background-image: url(../img/about/ornament-tablet.png);
-    background: none;
+    background-position: right -22px bottom 68px;
   }
 
   .about-list {
     max-width: 436px;
-    max-height: 350px;
     margin-bottom: 0;
     gap: 20px;
   }
