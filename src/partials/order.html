@@ -1,26 +1,27 @@
 <section class="continer order-conainer">
-  <h2 class="header-order">
+ <div class="bacgraund-top"></div>
+    <h2 class="header-order">
     <span class="heder-yelow">Your order</span> is our priority: Personalized
     approach and quality of service
   </h2>
-  <form action="">
-   <div class="input-flex">
-      <input
+  <form >
+    <input
         type="text"
         name="user-name"
         class="order-input"
         placeholder="Enter your full name"
-      />
-      <input
+        required
+    />
+    <input
         type="email"
         name="user-email"
         class="order-input"
         placeholder="Enter your email"
-      />
-      <textarea name="comment" id="" placeholder="Comment"  class="text-area-order"></textarea>
-   </div>
-    <buutton class="order-btn" type="submit"></buutton>
+        required
+    />
+    <textarea name="comment" id="" placeholder="Comment"  class="text-area-order"></textarea>
+    <button type="submit" class="order-btn">Send <svg width="26" height="10">
+        <use></use>
+    </svg></button>
   </form>
-
-  <buutton></buutton>
 </section>
