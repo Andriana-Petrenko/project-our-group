@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 40px;
+}
+
+.list-links {
+color: var(--white, #FCF9F9);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+text-transform: capitalize;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 25px 40px;
+}
+
+
+.moto {
+color: var(--white, #FCF9F9);
+font-size: 44px;
+font-weight: 400;
+line-height: 1.22;
+letter-spacing: -1.32px;
+}
+
+.accent {
+    color: #ECD979;
+}
