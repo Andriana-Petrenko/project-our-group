@@ -1,8 +1,8 @@
 .collection {
     background-image: url(../img/collection/ornament-mob.png);
     background-repeat: no-repeat;
-    background-position: left top 235px;
-    background-size: 77px 177px;
+    background-position: left top 306px;
+    background-size: 72px 177px;
     padding-top: 18px;
     padding-bottom: 80px;
 }
@@ -14,7 +14,6 @@
 }
 
 .collection-header {
-    color: #FCF9F9;
     text-align: center;
     font-size: 32px;
     font-weight: 500;
@@ -49,7 +48,6 @@
 .collection-list-item-title {
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #FCF9F9;
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
@@ -82,7 +80,7 @@
     .collection {
         background-size: 114px 300px;
         background-image: url(../img/collection/ornament-tab.png);
-        background-position: top 220px left 0px;
+        background-position: top 271px left 0;
         padding-top: 50px;
         padding-bottom: 100px;
     }
@@ -131,7 +129,7 @@
         padding-top: 70px;
         padding-bottom: 150px;
         background-image: url(../img/collection/ornament-desk.png);
-        background-position: top 220px left 0px;
+        background-position: top 291px left 0;
         background-size: 169px 300px;
     }
 
