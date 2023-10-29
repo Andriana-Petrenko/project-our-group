@@ -85,6 +85,12 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: auto;
+  z-index: 999;
+
+  background-image: url(../img/header/ornament-menu-mob.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 .mob-menu.is-open {
@@ -151,15 +157,8 @@
   /* 128.571% */
   text-transform: uppercase;
 }
-.mob-bg-img{
-  display: block;
-  position: absolute;
-  background-image: url(../img/header/ornament-menu-mob.png);
-  background-repeat: no-repeat;
-  width: 340px;
-  height: 302px;
-  left: 0;
-  bottom: -50px;
+.mob-menu{
+  
 }
 
 @media (min-device-pixel-ratio: 2),
