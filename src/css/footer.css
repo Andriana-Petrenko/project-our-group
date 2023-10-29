@@ -1,28 +1,41 @@
 .footer {
-    margin-top: 40px;
+  margin-top: 40px;
+}
+
+.footerlinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 40px;
+}
+
+.footerlinks-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .list-links {
-color: var(--white, #FCF9F9);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.28;
-text-transform: capitalize;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-gap: 25px 40px;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
 }
 
+.nav-link {
+  display: flex;
+  gap: 25px;
+}
 
 .moto {
-color: var(--white, #FCF9F9);
-font-size: 44px;
-font-weight: 400;
-line-height: 1.22;
-letter-spacing: -1.32px;
+  color: var(--white, #fcf9f9);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -1.32px;
 }
 
 .accent {
-    color: #ECD979;
+  color: #ecd979;
 }
