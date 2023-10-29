@@ -28,6 +28,9 @@ margin-bottom: 80px;
   max-width: 335px;
   padding-bottom: 40px;
 }
+
+/* .order-form{margin-bottom: 100px;} */
+
 .heder-yelow {
   color: var(--white, #ecd979);
 }
@@ -92,3 +95,5 @@ margin: 0 auto;
 .order-btn:hover,
 .order-btn:focus{
   border: 1px solid var(--yellow, #ECD979);}
+
+.order-photo{display: none;}
