@@ -100,6 +100,7 @@
 
   .footer {
     background-image: url(../img/footer/ornment-tablet.png);
+    background-position: right;
   }
 
   @media (min-device-pixel-ratio: 2),
