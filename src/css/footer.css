@@ -46,7 +46,12 @@
 }
 
 .embroidery {
-background-image: ;
+background-image: url(../img/footer/ornament-mob.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+max-width: 375px;
+margin: 0 auto;
 }
 
 
