@@ -8,12 +8,15 @@
   flex-wrap: wrap;
   width: 100%;
   column-gap: 40px;
+  row-gap: 25px;
+  margin-bottom: 40px;
   
 }
 
 .footerlinks-column {
   display: flex;
   flex-direction: column;
+  row-gap: 25px;
 }
 
 .list-links {
@@ -22,24 +25,28 @@
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
+  row-gap: 25px;
+  
   
 }
 
-.nav-link {
-  display: flex;
-  row-gap: 25px;
-}
+
 
 .moto {
   color: var(--white, #fcf9f9);
   font-size: 44px;
   font-weight: 400;
   line-height: 1.22;
-  letter-spacing: -1.32px;
+  letter-spacing: -1.32px; 
+  margin-bottom: 80px;
 }
 
 .accent {
   color: #ecd979;
+}
+
+.embroidery {
+background-image: ;
 }
 
 
