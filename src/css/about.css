@@ -1,0 +1,97 @@
+
+.about-us-container {
+  padding-top: 80px;
+  background-image: url(../img/about/ornament-mob.png);
+  background-repeat: no-repeat;
+  background-size: 280px 408px;
+  background-position: bottom 2.4% right -24px;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about-us-container {
+    background-image: url(../img/about/ornament-mob2x.png);
+  }
+}
+
+.about-us {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.about-list {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.list-item .first{margin-bottom: 20px;}
+
+
+@media screen and (min-width: 768px) {
+  
+  .about-us-container {
+    padding-top: 100px;
+    background-image: url(../img/about/ornament-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom 47px right -212px;
+    background-size: 545px 484px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-us-container {
+      background-image: url(../img/about/ornament-tablet2x.png);
+    }
+  }
+
+  .about-us {
+    font-size: 44px;
+    line-height: 1.46;
+  }
+  .about-list {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-desctop {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-us-container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+      background-image: url(../img/about/ornament-tablet.png);
+    background-position: right -159px bottom 50px;
+    
+  }
+
+  .about-list {
+    max-width: 436px;
+    margin-bottom: 0;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-list {
+      max-width: 481px;
+    }
+}
