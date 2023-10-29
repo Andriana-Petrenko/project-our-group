@@ -47,16 +47,14 @@
   color: #ecd979;
 }
 
-/* .footer {
-  position: relative;
-} */
+
 
 .footer {
-  /* position: absolute; */
+  
   background-image: url(../img/footer/ornament-mob.png);
   background-repeat: no-repeat;
 
-  /* background-position: bottom bottom; */
+  background-position: bottom;
   /* background-size: cover; */
 
   /* max-width: 320px; */
