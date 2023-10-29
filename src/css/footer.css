@@ -65,6 +65,17 @@
   right: 20%; */
 }
 
+
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/footer/ornament-mob2x.png);
+  }
+}
+
+
 /* Версія для планшета */
 
 @media screen and (min-width: 768px) {
@@ -92,6 +103,15 @@
   .footer {
     background-image: url(../img/footer/ornment-tablet.png);
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/footer/ornament-tablet2x.png);
+  }
+}
+
 }
 
 /* версія для десктопа */
@@ -115,4 +135,13 @@
   .footer {
     background-image: url(../img/footer/ornament-desktop1280.png);
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/footer/ornament-desktop12802x.png);
+  }
+}
+
 }
