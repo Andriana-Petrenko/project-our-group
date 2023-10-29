@@ -85,7 +85,12 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: auto;
-  z-index:1;
+  z-index: 999;
+
+  background-image: url(../img/header/ornament-menu-mob.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 .mob-menu.is-open {
@@ -152,21 +157,11 @@
   /* 128.571% */
   text-transform: uppercase;
 }
-.mob-bg-img{
-  display: block;
-  position: absolute;
-  background-image: url(../img/header/ornament-menu-mob.png);
-  background-repeat: no-repeat;
-  width: 340px;
-  height: 302px;
-  left: 0;
-  bottom: -50px;
-}
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-  .mob-bg-img{
+  .mob-menu{
     background-image: url(../img/header/ornament-menu-mob-x2.png);
   }
 }
@@ -181,6 +176,7 @@
     width: 380px;
     padding: 20px 32px;
     transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
+    background-image: url(/img/header/ornament-menu-tablet.png);
   }
   .mob-tel{
     padding: 14px 28px;
@@ -196,16 +192,11 @@
   .mob-navigation-list{
     gap: 25px;
   }
-  .mob-bg-img{
-    width: 545px;
-    height: 484px;
-    background-image: url(../img/header/ornament-menu-tablet.png);
-    bottom: -120px;
-  }
+  
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .mob-bg-img {
+    .mob-menu{
       background-image: url(../img/header/ornament-menu-tablet-x2.png);
     }
   }
