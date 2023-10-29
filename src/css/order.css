@@ -29,7 +29,6 @@ margin-bottom: 80px;
   padding-bottom: 40px;
 }
 
-/* .order-form{margin-bottom: 100px;} */
 
 .heder-yelow {
   color: var(--white, #ecd979);
@@ -97,3 +96,28 @@ margin: 0 auto;
   border: 1px solid var(--yellow, #ECD979);}
 
 .order-photo{display: none;}
+
+
+@media screen and (min-width:768px) {
+  .container {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+  }
+
+
+.order-form{margin-bottom: 100px;}
+
+
+
+
+
+}
+
+@media screen and (min-width:1280px) {
+  .container {
+      max-width: 1280px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
