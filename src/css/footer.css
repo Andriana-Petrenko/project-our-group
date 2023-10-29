@@ -9,7 +9,6 @@
   width: 100%;
   column-gap: 40px;
   margin-bottom: 40px;
-  
 }
 
 .footerlinks-column {
@@ -24,18 +23,14 @@
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
-  
-  
-  
 }
-
 
 .moto {
   color: var(--white, #fcf9f9);
   font-size: 44px;
   font-weight: 400;
   line-height: 1.22;
-  letter-spacing: -1.32px; 
+  letter-spacing: -1.32px;
   margin-bottom: 80px;
 }
 
@@ -43,47 +38,81 @@
   color: #ecd979;
 }
 
-
 .nav-link {
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover, .nav-link:focus {
-    color: #ECD979;
+.nav-link:hover,
+.nav-link:focus {
+  color: #ecd979;
 }
 
+/* .footer {
+  position: relative;
+} */
 
+.footer {
+  /* position: absolute; */
+  background-image: url(../img/footer/ornament-mob.png);
+  background-repeat: no-repeat;
 
+  /* background-position: bottom bottom; */
+  /* background-size: cover; */
 
-.embroidery {
-background-image: url(../img/footer/ornament-mob.png);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-max-width: 375px;
-margin: 0 auto;
+  /* max-width: 320px; */
+  /* margin: 0 auto; */
+  /* bottom: 20%;
+  right: 20%; */
 }
 
 /* Версія для планшета */
 
 @media screen and (min-width: 768px) {
-    
-    .list-links {
-        display: flex;
-        gap: 25px;
-    }
+  .list-links {
+    display: flex;
+    gap: 25px;
+  }
 
-    .footerlinks {
-        gap: 25px;
-    }
+  .footerlinks {
+    gap: 25px;
+    margin-bottom: 80px;
+  }
 
-    .moto {
-       width: 521px;
-    }
+  .moto {
+    width: 521px;
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -1.62px;
+  }
 
-    .title-break-mob {
-        display: none;
-    }
+  .title-break-mob {
+    display: none;
+  }
 
-    
+  .footer {
+    background-image: url(../img/footer/ornment-tablet.png);
+  }
+}
+
+/* версія для десктопа */
+
+@media screen and (min-width: 1280px) {
+  .footerlinks {
+    margin-bottom: 117px;
+  }
+
+  .title-break-tablet {
+    display: none;
+  }
+
+  .moto {
+    width: 754px;
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+  }
+
+  .footer {
+    background-image: url(../img/footer/ornament-desktop1280.png);
+  }
 }
