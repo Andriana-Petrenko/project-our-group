@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   width: 100%;
   column-gap: 40px;
+  
 }
 
 .footerlinks-column {
@@ -25,7 +26,7 @@
 
 .nav-link {
   display: flex;
-  gap: 25px;
+  row-gap: 25px;
 }
 
 .moto {
