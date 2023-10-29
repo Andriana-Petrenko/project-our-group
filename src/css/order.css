@@ -1,14 +1,13 @@
-.bacgraund-top{padding: 80px 0;
+.bacgraund-top{
   min-width: 375px;
-min-height: 575px;
+min-height: 550px;
 background-image: url(../img/order/background-mob.jpg);
 background-repeat: no-repeat;
-background-size: 375px 550px;
-background-position: 20px 0;
+background-size: 100%;
 }
 
 .order-conainer {
-  padding: 80px 20px 0 20px;
+  padding: 80px  0;
 }
 
 .header-order {
