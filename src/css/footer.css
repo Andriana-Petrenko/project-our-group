@@ -1,146 +1,114 @@
 .footer {
-  margin-top: 40px;
-}
-
-.footerlinks {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  column-gap: 40px;
-  margin-bottom: 40px;
-}
-
-.footerlinks-column {
-  display: flex;
-  flex-direction: column;
-  row-gap: 25px;
-}
-
-.list-links {
-  color: var(--white, #fcf9f9);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.28;
-  text-transform: uppercase;
-}
-
-.moto {
-  color: var(--white, #fcf9f9);
-  font-size: 44px;
-  font-weight: 400;
-  line-height: 1.22;
-  letter-spacing: -1.32px;
-  margin-bottom: 80px;
-}
-
-.accent {
-  color: #ecd979;
-}
-
-.nav-link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #ecd979;
-}
-
-
-
-.footer {
-  
-  background-image: url(../img/footer/ornament-mob.png);
-  background-repeat: no-repeat;
-
-  background-position: bottom;
-  /* background-size: cover; */
-
-  /* max-width: 320px; */
-  /* margin: 0 auto; */
-  /* bottom: 20%;
-  right: 20%; */
-}
-
-
-
-@media (min-device-pixel-ratio: 2),
+    padding-top: 40px;
+    min-height:649px;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+    background-image: url(../img/footer/ornament-mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+  }
+  @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .footer {
-    background-image: url(../img/footer/ornament-mob2x.png);
+    .footer {
+      background-image: url(../img/footer/ornament-mob2x.png);
+    }
   }
-}
-
-
-/* Версія для планшета */
-
-@media screen and (min-width: 768px) {
-  .list-links {
-    display: flex;
-    gap: 25px;
-  }
-
   .footerlinks {
+    margin-bottom: 40px;
+  }
+  .footerlinks-column {
+    display: flex;
+    flex-direction: column;
     gap: 25px;
+  }
+  .list-links {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+    display: flex;
+    gap:40px;
+  }
+  .moto {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
     margin-bottom: 80px;
   }
-
-  .moto {
-    width: 521px;
-    font-size: 54px;
-    line-height: 1.18;
-    letter-spacing: -1.62px;
+  .accent {
+    color: #ECD979;
   }
-
-  .title-break-mob {
-    display: none;
+  .nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 25px;
   }
-
-  .footer {
-    background-image: url(../img/footer/ornment-tablet.png);
-    background-position: right;
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #ECD979;
   }
-
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .footer {
-    background-image: url(../img/footer/ornament-tablet2x.png);
+  /* Версія для планшета */
+  @media screen and (min-width: 768px) {
+     .footer {
+      background-image: url(../img/footer/ornment-tablet.png);
+      background-position: right;
+      min-height: 370px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/footer/ornament-tablet2x.png);
+    }
   }
-}
-
-}
-
-/* версія для десктопа */
-
-@media screen and (min-width: 1280px) {
   .footerlinks {
-    margin-bottom: 117px;
+      margin-bottom: 80px;
+    }
+      .footerlinks-column {
+        flex-direction: row;
+      }
+      .list-links {
+        gap: 25px;
+      }
+    .moto {
+      width: 521px;
+      font-size: 54px;
+      line-height: 1.18;
+    }
   }
-
-  .title-break-tablet {
-    display: none;
+  /* версія для десктопа */
+  @media screen and (min-width: 1280px) {
+    .footer {
+      background-image: url(../img/footer/ornament-desktop1280.png);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer {
+        background-image: url(../img/footer/ornament-desktop12802x.png);
+      }
+    }
+    .footerlinks {
+      margin-bottom: 117px;
+    }
+    .moto {
+      width: 754px;
+      font-size: 64px;
+      line-height: 1.15;
+    }
   }
-
-  .moto {
-    width: 754px;
-    font-size: 64px;
-    line-height: 1.15;
-    letter-spacing: -1.92px;
+  @media screen and (min-width: 1440px) {
+    .footer {
+      background-image: url(../img/footer/ornament-desktop1440.png);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer {
+        background-image: url(../img/footer/ornament-desktop14402x.png);
+      }
+    }
+  .footerlinks {
+      margin-bottom: 117px;
+    }
   }
-
-  .footer {
-    background-image: url(../img/footer/ornament-desktop1280.png);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .footer {
-    background-image: url(../img/footer/ornament-desktop12802x.png);
-  }
-}
-
-}
