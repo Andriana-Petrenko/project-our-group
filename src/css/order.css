@@ -105,12 +105,41 @@ margin: 0 auto;
       padding-right: 32px;
   }
 
+  .bacgraund-top{
+    min-width: 768px;
+  min-height: 776px;
+  background-image: url(../img/order/background-tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .bacgraund-top {
+      background-image: url(../img/order/background-tablet2x.jpg);
+    }
+  }
+.header-order{
+  min-width: 542px;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: -0.03em}
+
+  .order-input{max-width: 508px; }
+
+  .text-area-order{max-width: 508px; }
+
+  .order-btn{margin: 0; }
+  
 
 .order-form{margin-bottom: 100px;}
 
-
-
-
+.order-photo{display: block;
+margin-left: 78px;
+background-image: url(../img/order/ornament-desktop1280.png);
+background-size: 100%;}
 
 }
 
