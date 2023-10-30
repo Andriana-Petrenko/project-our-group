@@ -137,11 +137,10 @@ margin: 0 auto;
 .order-form{margin-bottom: 100px;}
 
 .order-photo{display: block;;
-padding-left: 78px;
-padding-bottom: 80px;}
+padding-left: 78px;}
 
 
-.background-bot{background-image: url(../img/order/ornament-tablet.png);
+.order-conainer{background-image: url(../img/order/ornament-tablet.png);
   background-repeat: no-repeat;
   background-position: bottom 1px left 1px}
 
