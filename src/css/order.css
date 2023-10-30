@@ -111,6 +111,7 @@ margin: 0 auto;
   background-image: url(../img/order/background-tablet.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-bottom: 100px;
   }
   
   @media (min-device-pixel-ratio: 2),
@@ -136,22 +137,72 @@ margin: 0 auto;
 
 .order-form{margin-bottom: 100px;}
 
-.order-photo{display: block;;
+.order-photo{display: block;
 padding-left: 78px;}
 
 
 .order-conainer{background-image: url(../img/order/ornament-tablet.png);
   background-repeat: no-repeat;
-  background-position: bottom 1px left 1px}
+  background-size: 545px 484px;
+  background-position: bottom 0 left -221px}
 
-
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .order-conainer {
+      background-image: url(../img/order/ornament-tablet2x.png);
+    }
+  }
 }
 
 @media screen and (min-width:1280px) {
   .container {
       max-width: 1280px;
-      padding-left: 100px;
+      padding-left: 65px;
       padding-right: 100px;
   }
+
+  .bacgraund-top{
+    min-width: 768px;
+  min-height: 690px;
+  background-image: url(../img/order/background-desktop1440.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 150px;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .bacgraund-top {
+      background-image: url(../img/order/background-desktop14402x.jpg);
+    }
+  }
+
+  .order-photo{
+    padding-left: 0;}
+
+.for-order{display: flex;
+flex-direction: row-reverse;
+gap: 50px;}
+
+.order-form{margin-bottom: 0;}
+
+
+.order-conainer{background-image: url(../img/order/ornament-desktop1280.png);
+  background-repeat: no-repeat;
+  background-size: 545px 484px;
+  background-position: bottom 1px left 1px}
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .order-conainer {
+      background-image: url(../img/order/ornament-desktop12802x.png);
+      background-repeat: no-repeat;
+      background-size: 545px 484px;
+      background-position: bottom 0;
+    }
+  }
+
 }
