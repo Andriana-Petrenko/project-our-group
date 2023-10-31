@@ -81,8 +81,7 @@
         background-size: 114px 300px;
         background-image: url(../img/collection/ornament-tab.png);
         background-position: top 221px left 0;
-        background-position: top 271px left 0;
-        padding-top: 50px;
+        padding-bottom: 100px;
     }
 
     .collection-header {
@@ -131,6 +130,7 @@
        
         background-position: top 291px left 0;
         background-size: 169px 300px;
+        padding-bottom: 150px;
     }
 
     .collection-list-item {
