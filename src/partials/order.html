@@ -1,3 +1,51 @@
-<section>
+<section class=" order-conainer">
+  <div class="bacgraund-top"></div>
+    <div class="container">
+      <div class="for-order">
+        <div class="for-order-form">
+          <h2 class="header-order">
+          <span class="heder-yelow">Your order</span> is our priority: Personalized
+          approach and quality of service
+          </h2>
+          <form class="order-form">
+          <input
+              type="text"
+              name="user-name"
+              class="order-input"
+              pattern=".{8,}"
+              placeholder="Enter your full name"
+              required
+          />
+          <input
+              type="email"
+              name="user-email"
+              class="order-input"
+              pattern=".{8,}"
+              placeholder="Enter your email"
+              required
+          />
+          <textarea name="comment" id="" placeholder="Comment"  class="text-area-order"></textarea>
+          <button type="submit" class="order-btn">Send <svg width="26" height="10">
+              <use href="../img/icons.svg#icon-untitled"></use>
+          </svg></button>
+          </form> 
+        </div> 
+        <div class="background-bot">
+          <div class="order-photo">
+            <picture class="picture-order">
+                  <source srcset="../img/order/order-desktop1440-1280.jpg 1x,
+                  ../img/order/order-desktop1440-12802x.jpg 2x
+                      " media="(min-width: 1280px)" />
+                    <source
+              srcset="../img/order/order-tablet.jpg 1x,
+              ../img/order/order-tablet2x.jpg 2x
+              " media="(min-width: 768px)"
+            />
+                    <img src="../img/order/order-tablet.jpg 1x" alt="vyshyvanka" />
+            </picture>
+          </div>
+        </div>
+      </div>
     
+    </div>
 </section>

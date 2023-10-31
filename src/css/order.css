@@ -1,0 +1,208 @@
+.bacgraund-top{
+  min-width: 375px;
+min-height: 550px;
+background-image: url(../img/order/background-mob.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+margin-bottom: 80px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .bacgraund-top {
+    background-image: url(../img/order/background-mob2x.jpg);
+  }
+}
+
+.order-conainer {
+  padding: 80px  0;
+}
+
+.header-order {
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  max-width: 335px;
+  padding-bottom: 40px;
+}
+
+
+.heder-yelow {
+  color: var(--white, #ecd979);
+}
+
+.order-input {
+  color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  padding: 14px 16px;
+  width: 100%;
+  height: 47px;
+  color: var(--white, #FCF9F9);
+  margin-bottom: 20px;
+}
+
+.input-flex{display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+margin-bottom: 40px;}
+
+.text-area-order{
+    color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  padding: 14px 16px;
+  width: 100%;
+  height: 196px;
+  resize: none;
+color: var(--white, #FCF9F9);
+margin-bottom: 40px;
+}
+
+
+.order-btn {
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.1);
+width: 145px;
+height: 49px;
+background-color: transparent;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+padding: 14px 36px;
+color: var(--white, #FCF9F9);
+display: block;
+margin: 0 auto;
+}
+
+.order-btn:hover,
+.order-btn:focus{
+  border: 1px solid var(--yellow, #ECD979);}
+
+.order-photo{display: none;}
+
+
+@media screen and (min-width:768px) {
+  .container {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+  }
+
+  .bacgraund-top{
+    min-width: 768px;
+  min-height: 776px;
+  background-image: url(../img/order/background-tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 100px;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .bacgraund-top {
+      background-image: url(../img/order/background-tablet2x.jpg);
+    }
+  }
+.header-order{
+  min-width: 542px;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: -0.03em}
+
+  .order-input{max-width: 508px; }
+
+  .text-area-order{max-width: 508px; }
+
+  .order-btn{margin: 0; }
+  
+
+.order-form{margin-bottom: 100px;}
+
+.order-photo{display: block;
+padding-left: 78px;}
+
+
+.order-conainer{background-image: url(../img/order/ornament-tablet.png);
+  background-repeat: no-repeat;
+  background-size: 545px 484px;
+  background-position: bottom 0 left -221px}
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .order-conainer {
+      background-image: url(../img/order/ornament-tablet2x.png);
+    }
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .container {
+      max-width: 1280px;
+      padding-left: 65px;
+      padding-right: 100px;
+  }
+
+  .bacgraund-top{
+    min-width: 768px;
+  min-height: 690px;
+  background-image: url(../img/order/background-desktop1440.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 150px;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .bacgraund-top {
+      background-image: url(../img/order/background-desktop14402x.jpg);
+    }
+  }
+
+  .order-photo{
+    padding-left: 0;}
+
+.for-order{display: flex;
+flex-direction: row-reverse;
+gap: 50px;}
+
+.order-form{margin-bottom: 0;}
+
+
+.order-conainer{background-image: url(../img/order/ornament-desktop1280.png);
+  background-repeat: no-repeat;
+  background-size: 545px 484px;
+  background-position: bottom 1px left 1px}
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .order-conainer {
+      background-image: url(../img/order/ornament-desktop12802x.png);
+      background-repeat: no-repeat;
+      background-size: 545px 484px;
+      background-position: bottom 80px left -220px;
+    }
+  }
+
+}
