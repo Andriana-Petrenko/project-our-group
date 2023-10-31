@@ -16,7 +16,7 @@
   
 }
 
-.order-btn {
+.hero-btn {
   display: flex;
   width: 168px;
   font-size: 14px;
@@ -31,13 +31,12 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   margin: 0 auto;
-  margin-bottom: 40px;
-  
   transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 40px;
 }
 
-.order-btn:hover,
-.order-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   border: 1px solid var(--yellow, #ecd979);
 }
 
@@ -76,7 +75,7 @@
     margin-bottom: 40px;
   }
 
-  .order-btn {
+  .hero-btn {
     font-size: 16px;
     margin-bottom: 40px;
     margin-left: 141px;
@@ -133,7 +132,7 @@
     margin-top: 94px;
   }
 
-  .order-btn {
+  .hero-btn {
     margin-left: 141px;
     margin-bottom: 0;
   }

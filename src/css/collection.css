@@ -1,9 +1,9 @@
+
 .collection {
     background-image: url(../img/collection/ornament-mob.png);
     background-repeat: no-repeat;
-    background-position: left top 306px;
+    background-position: left top 298px;
     background-size: 72px 177px;
-    padding-top: 18px;
     padding-bottom: 80px;
 }
 
@@ -80,8 +80,7 @@
     .collection {
         background-size: 114px 300px;
         background-image: url(../img/collection/ornament-tab.png);
-        background-position: top 271px left 0;
-        padding-top: 50px;
+        background-position: top 221px left 0;
         padding-bottom: 100px;
     }
 
@@ -126,11 +125,12 @@
     }
 
     .collection {
-        padding-top: 70px;
         padding-bottom: 150px;
         background-image: url(../img/collection/ornament-desk.png);
+       
         background-position: top 291px left 0;
         background-size: 169px 300px;
+        padding-bottom: 150px;
     }
 
     .collection-list-item {
@@ -148,4 +148,6 @@
         column-gap: 20px;
     }
 
+
 }
+

@@ -1,6 +1,7 @@
 
+
 .testimonials {
-    padding: 81px 0 80px 0;
+    padding-bottom: 80px;
 }
 
 .section-title {
@@ -77,10 +78,12 @@
 
 @media screen and (min-width: 1280px) {
     .testimonials {
-        padding: 150px 0;
+        padding-bottom: 150px;
     }
 
     .testimonials-item:nth-child(3n) {
         display: block;
     }
+
 }
+
