@@ -14,9 +14,15 @@
     }
   }
 
+
+    .navigation{
+max-width:280px;
+    }
+
   .list-links {
+    max-height: 61px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 25px 40px;
     font-size: 14px;
@@ -25,11 +31,6 @@
     text-transform: uppercase;
     margin-bottom: 40px;
       }
-
-
-    .list-item {
-      width: calc((100% - 40px) / 2);
-    }
 
   .moto {
     font-size: 44px;
@@ -63,6 +64,10 @@
       background-image: url(../img/footer/ornament-tablet2x.png);
     }
   }
+    .navigation {
+      max-width: 484px;
+    }
+
      .list-links {
        display: flex;
        flex-direction: row;
@@ -94,6 +99,7 @@
       }
     }
   
+        
         .list-links {
           margin-bottom: 117px;
         }
