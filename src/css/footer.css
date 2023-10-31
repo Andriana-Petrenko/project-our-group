@@ -1,3 +1,4 @@
+
 .footer {
     padding-top: 40px;
     min-height:649px;
@@ -17,7 +18,7 @@
 
     .navigation{
 max-width:280px;
-    }
+}
 
   .list-links {
     max-height: 61px;
@@ -75,10 +76,6 @@ max-width:280px;
        gap: 25px;
        margin-bottom: 80px;
      }
-  
-     .list-item {
-       width: auto;
-     }
 
     .moto {
       width: 521px;
@@ -99,7 +96,6 @@ max-width:280px;
       }
     }
   
-        
         .list-links {
           margin-bottom: 117px;
         }
@@ -123,3 +119,5 @@ max-width:280px;
     }
   
     }
+
+
