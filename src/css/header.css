@@ -3,7 +3,6 @@
 }
 
 .header-container {
-  /* outline: 1px solid tomato; */
   display: flex;
   align-items: center;
   justify-content: space-between;
