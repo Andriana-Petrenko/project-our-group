@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 .collection {
     background-image: url(../img/collection/ornament-mob.png);
     background-repeat: no-repeat;
@@ -82,7 +81,8 @@
         background-size: 114px 300px;
         background-image: url(../img/collection/ornament-tab.png);
         background-position: top 221px left 0;
-        padding-bottom: 100px;
+        background-position: top 271px left 0;
+        padding-top: 50px;
     }
 
     .collection-header {
@@ -128,6 +128,8 @@
     .collection {
         padding-bottom: 150px;
         background-image: url(../img/collection/ornament-desk.png);
+       
+        background-position: top 291px left 0;
         background-size: 169px 300px;
     }
 
@@ -146,5 +148,6 @@
         column-gap: 20px;
     }
 
+
 }
->>>>>>> Stashed changes
+

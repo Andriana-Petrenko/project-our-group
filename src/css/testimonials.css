@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 
 .testimonials {
     padding: 80px 0;
@@ -85,5 +84,6 @@
     .testimonials-item:nth-child(3n) {
         display: block;
     }
+
 }
->>>>>>> Stashed changes
+
