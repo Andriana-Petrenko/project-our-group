@@ -1,11 +1,9 @@
 
 .about-us-container {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding:80px 0;
   background-image: url(../img/about/ornament-mob.png);
   background-repeat: no-repeat;
-  background-size: 280px 408px;
-  background-position: bottom 2.4% right -24px;
+  background-position: bottom 14px right 0px;
 
 }
 
@@ -46,8 +44,8 @@
     padding-top: 100px;
     background-image: url(../img/about/ornament-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom 47px right -212px;
-    background-size: 545px 484px;
+    background-position: bottom 30px right 0px;
+    background-size: 369px 484px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -80,7 +78,8 @@
   padding-top: 150px;
   padding-bottom: 150px;
       background-image: url(../img/about/ornament-tablet.png);
-    background-position: right -159px bottom 50px;
+    background-position: right 13px bottom 70px;
+    background-size: 386px 484px;
     
   }
 
@@ -95,4 +94,16 @@
   .about-list {
       max-width: 481px;
     }
-}
+  .about-us-container {
+      background-image: url(/img/about/ornament-desktop1440.png);
+      background-repeat: no-repeat;
+      background-size: 545px 484px;
+      background-position: bottom 0px right 0px;
+      }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .about-us-container {
+           background-image: url(/img/about/ornament-desktop14402x.png);
+                  }
+}}
