@@ -280,11 +280,11 @@
   .header-nav-wrap{
     display: flex;
     align-items: center;
+    gap: 60px;
   }
 
   .header-navigation {
     display: flex;
-    margin-left: 60px;
   }
 
   .header-navigation-list {
