@@ -1,0 +1,123 @@
+<<<<<<< Updated upstream
+=======
+.footer {
+    padding-top: 40px;
+    min-height:649px;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+    background-image: url(../img/footer/ornament-mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/footer/ornament-mob2x.png);
+    }
+  }
+
+.nav-container{
+  max-width: 280px;
+}
+
+  .list-links {
+    max-height: 61px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+      }
+
+  .moto {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    margin-bottom: 80px;
+  }
+  .accent {
+    color: #ECD979;
+  }
+  .nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+  }
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #ECD979;
+  }
+  /* Версія для планшета */
+  @media screen and (min-width: 768px) {
+     .footer {
+      background-image: url(../img/footer/ornment-tablet.png);
+      background-position: right;
+      min-height: 370px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/footer/ornament-tablet2x.png);
+    }
+  }
+     .list-links {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       gap: 25px;
+       margin-bottom: 80px;
+     }
+  
+  .nav-container {
+           max-width: 478px;
+         }
+
+
+    .moto {
+      width: 521px;
+      font-size: 54px;
+      line-height: 1.18;
+    }
+  }
+  /* версія для десктопа */
+  @media screen and (min-width: 1280px) {
+    .footer {
+      background-image: url(../img/footer/ornament-desktop1280.png);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer {
+        background-image: url(../img/footer/ornament-desktop12802x.png);
+      }
+    }
+  
+        .list-links {
+          margin-bottom: 117px;
+        }
+
+    .moto {
+      width: 754px;
+      font-size: 64px;
+      line-height: 1.15;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .footer {
+      background-image: url(../img/footer/ornament-desktop1440.png);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer {
+        background-image: url(../img/footer/ornament-desktop14402x.png);
+      }
+    }
+  
+    }
+>>>>>>> Stashed changes
