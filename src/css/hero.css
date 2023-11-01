@@ -39,7 +39,7 @@
 
 .hero-btn:hover,
 .hero-btn:focus {
-  border: 1px solid var(--yellow, #ecd979);
+  border: 1px solid #ecd979;
   box-shadow: 0 0 10px #AA9D58;
 }
 
