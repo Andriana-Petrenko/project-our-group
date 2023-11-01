@@ -6,15 +6,17 @@ background-color: #1C2225;
 }
 
 .container {
-    max-width: 355px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
 }
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 724px;
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
 
     }
 }
