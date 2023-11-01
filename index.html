@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
-    <script type="module" crossorigin src="/project-our-group/assets/index-b04ff5a0.js"></script>
-    <link rel="stylesheet" href="/project-our-group/assets/index-4ebe370d.css">
+    <script type="module" crossorigin src="/project-our-group/assets/index-66ef5273.js"></script>
+    <link rel="stylesheet" href="/project-our-group/assets/index-3d9fc6da.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -95,7 +95,7 @@
     <div class="mob-container">
       <div class="top-wrapper">
         <a href="tel:+380684439426" class="mob-tel">+380 (68) 443-94-26</a>
-        <button id="menu-cls-btn" class="mob-close-btn">
+        <button id="menu-cls-btn" type="button" class="mob-close-btn">
           <svg class="mob-close-icon" width="36" height="36">
             <use href="/project-our-group/assets/icons-5f63be2b.svg#icon-close"></use>
           </svg>
@@ -452,7 +452,7 @@
               type="text"
               name="user-name"
               class="order-input"
-              pattern=".{8,}"
+              pattern=".{2,}"
               placeholder="Enter your full name"
               required
           />
@@ -460,11 +460,11 @@
               type="email"
               name="user-email"
               class="order-input"
-              pattern=".{8,}"
+              pattern=".{2,}"
               placeholder="Enter your email"
               required
           />
-          <textarea name="comment" id="" placeholder="Comment"  class="text-area-order"></textarea>
+          <textarea name="comment" placeholder="Comment"  class="text-area-order"></textarea>
           <button type="submit" class="order-btn">Send <svg width="26" height="10">
               <use href="/project-our-group/assets/icons-5f63be2b.svg#icon-untitled"></use>
           </svg></button>
@@ -477,7 +477,7 @@
                     <source
               srcset="/project-our-group/assets/order-tablet-a6234622.jpg 1x, /project-our-group/assets/order-tablet2x-1ba794f8.jpg 2x" media="(min-width: 768px)"
             />
-                    <img src="./img/order/order-tablet.jpg 1x" alt="vyshyvanka" />
+                    <img src="../img/order/order-tablet.jpg" alt="vyshyvanka" />
             </picture>
           </div>
         </div>
