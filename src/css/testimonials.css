@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 1280px) {
     .testimonials {
-        padding-bottom: 150px;
+        padding: 150px 0;
     }
 
     .testimonials-item:nth-child(3n) {

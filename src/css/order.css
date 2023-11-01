@@ -4,7 +4,7 @@ padding-bottom:80px;
 }
 
 .bacgraund-top{
-min-width: 375px;
+max-width: 375px;
 min-height: 550px;
 background-image: url(../img/order/background-mob.jpg);
 background-repeat: no-repeat;
