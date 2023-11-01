@@ -1,7 +1,7 @@
 
 .footer {
     padding-top: 40px;
-    min-height:649px;
+    height:649px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
     background-image: url(../img/footer/ornament-mob.png);
     background-repeat: no-repeat;
@@ -12,12 +12,14 @@
   (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/footer/ornament-mob2x.png);
+      background-size: 375px;
     }
   }
 
 
     .navigation{
 max-width:280px;
+margin-bottom: 40px;
 }
 
   .list-links {
@@ -30,7 +32,7 @@ max-width:280px;
     font-weight: 400;
     line-height: 1.28;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    
       }
 
   .moto {
@@ -54,19 +56,22 @@ max-width:280px;
   /* Версія для планшета */
   @media screen and (min-width: 768px) {
      .footer {
+      height: 370px;
       background-image: url(../img/footer/ornment-tablet.png);
       background-position: right;
-      min-height: 370px;
+      
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/footer/ornament-tablet2x.png);
+      background-size: 174px;
     }
   }
     .navigation {
       max-width: 484px;
+      margin-bottom: 80px;
     }
 
      .list-links {
@@ -74,7 +79,7 @@ max-width:280px;
        flex-direction: row;
        flex-wrap: wrap;
        gap: 25px;
-       margin-bottom: 80px;
+       
      }
 
     .moto {
@@ -87,12 +92,14 @@ max-width:280px;
   @media screen and (min-width: 1280px) {
     .footer {
       background-image: url(../img/footer/ornament-desktop1280.png);
+      height: 363px;
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
       .footer {
         background-image: url(../img/footer/ornament-desktop12802x.png);
+        background-size: 336px;
       }
     }
   
@@ -115,6 +122,7 @@ max-width:280px;
     (min-resolution: 2dppx) {
       .footer {
         background-image: url(../img/footer/ornament-desktop14402x.png);
+        background-size: 496px;
       }
     }
   

@@ -5,7 +5,6 @@
   padding:80px 0;
   background-image: url(../img/about/ornament-mob.png);
   background-repeat: no-repeat;
-  background-size: 251px 408px;
   background-position: bottom 14px right 0px;
 
 }
@@ -15,6 +14,7 @@
   (min-resolution: 2dppx) {
   .about-us-container {
     background-image: url(../img/about/ornament-mob2x.png);
+    background-size: 251px 408px;
   }
 }
 
@@ -54,6 +54,7 @@
     (min-resolution: 2dppx) {
     .about-us-container {
       background-image: url(../img/about/ornament-tablet2x.png);
+      background-size: 369px 484px;
     }
   }
 
@@ -81,6 +82,20 @@
     margin-bottom: 0;
     gap: 20px;
   }
+
+    .about-us-container {
+      background-image: url(../img/about/ornament-desktop1280.png);
+      background-repeat: no-repeat;
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .about-us-container {
+        background-image: url(../img/about/ornament-desktop12802x.png);
+        background-size: 386px 484px;
+      }
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -88,13 +103,14 @@
       max-width: 481px;
     }
   .about-us-container {
-      background-image: url(/img/about/ornament-desktop1440.png);
+      background-image: url(../img/about/ornament-desktop1440.png);
       background-repeat: no-repeat;
       }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
           .about-us-container {
-           background-image: url(/img/about/ornament-desktop14402x.png);
+           background-image: url(../img/about/ornament-desktop14402x.png);
+          background-size: 545px 484px;
                   }
 }}
