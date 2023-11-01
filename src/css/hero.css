@@ -2,18 +2,21 @@
   padding-top: 60px;
 }
 
-.container-hero{
+.container-hero {
   position: relative;
 }
 
+.text-cont {
+  margin-bottom: 40px;
+}
+
 .hero-title {
-  width: 335px;
+  max-width: 335px;
   font-size: 44px;
   line-height: 1.22;
   letter-spacing: -0.03em;
   font-weight: 400;
   margin-bottom: 20px;
-  
 }
 
 .hero-btn {
@@ -30,19 +33,18 @@
   background-color: transparent;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  margin: 0 auto;
-  transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 40px;
+  margin-left: 70px;
+  transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   border: 1px solid var(--yellow, #ecd979);
+  box-shadow: 0 0 10px #AA9D58;
 }
 
 .hero-word {
   color: #ecd979;
-
 }
 
 .vector-icon {
@@ -52,7 +54,6 @@
 .hero-girl {
   border-radius: 4px;
   width: 335px;
-  height: 545px;
 }
 
 .star {
@@ -65,10 +66,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-      padding-top: 106px;
-    }
+    padding-top: 106px;
+  }
   .hero-title {
-    width: 549px;
+    min-width: 549px;
     font-size: 54px;
     line-height: 1.19;
     letter-spacing: -0.03em;
@@ -77,14 +78,12 @@
 
   .hero-btn {
     font-size: 16px;
-    margin-bottom: 40px;
     margin-left: 141px;
     padding: 14px 39px;
   }
 
   .hero-girl {
     width: 413px;
-    height: 575px;
   }
 
   .star {
@@ -127,8 +126,12 @@
     gap: 40px;
   }
 
+  .text-cont {
+    margin-bottom: 0;
+  }
+
   .hero-title {
-    width: 518px;
+    min-width: 518px;
     margin-top: 94px;
   }
 
@@ -139,14 +142,11 @@
 
   .hero-girl {
     width: 392px;
-    height: 545px;
   }
 
   .star {
     top: 14px;
-
   }
-
 }
 
 @media screen and (min-width: 1440px) {
