@@ -1,11 +1,11 @@
+ 
+
 
 .about-us-container {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding:80px 0;
   background-image: url(../img/about/ornament-mob.png);
   background-repeat: no-repeat;
-  background-size: 280px 408px;
-  background-position: bottom 2.4% right -24px;
+  background-position: bottom 14px right 0px;
 
 }
 
@@ -14,6 +14,7 @@
   (min-resolution: 2dppx) {
   .about-us-container {
     background-image: url(../img/about/ornament-mob2x.png);
+    background-size: 251px 408px;
   }
 }
 
@@ -43,17 +44,17 @@
 @media screen and (min-width: 768px) {
   
   .about-us-container {
-    padding-top: 100px;
+    padding: 100px 0;
     background-image: url(../img/about/ornament-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom 47px right -212px;
-    background-size: 545px 484px;
+    background-position: bottom 50px right 0px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-container {
       background-image: url(../img/about/ornament-tablet2x.png);
+      background-size: 369px 484px;
     }
   }
 
@@ -76,23 +77,40 @@
     align-items: center;
   }
 
-  .about-us-container {
-  padding-top: 150px;
-  padding-bottom: 150px;
-      background-image: url(../img/about/ornament-tablet.png);
-    background-position: right -159px bottom 50px;
-    
-  }
-
   .about-list {
     max-width: 436px;
     margin-bottom: 0;
     gap: 20px;
   }
+
+    .about-us-container {
+      background-image: url(../img/about/ornament-desktop1280.png);
+      background-repeat: no-repeat;
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .about-us-container {
+        background-image: url(../img/about/ornament-desktop12802x.png);
+        background-size: 386px 484px;
+      }
+    }
 }
 
 @media screen and (min-width: 1440px) {
   .about-list {
       max-width: 481px;
     }
-}
+  .about-us-container {
+      background-image: url(../img/about/ornament-desktop1440.png);
+      background-repeat: no-repeat;
+      }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .about-us-container {
+           background-image: url(../img/about/ornament-desktop14402x.png);
+          background-size: 545px 484px;
+                  }
+}}
