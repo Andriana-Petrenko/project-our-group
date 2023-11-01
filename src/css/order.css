@@ -5,11 +5,16 @@ padding-bottom:80px;
 
 .bacgraund-top{
 max-width: 375px;
-min-height: 550px;
-background-image: url(../img/order/background-mob.jpg);
-background-repeat: no-repeat;
-background-size: 100%;
-margin-bottom: 80px;
+  min-height: 550px;
+  background-image: url(../img/order/background-mob.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  margin: 0 auto;
+  margin-bottom: 80px;
+  background-position: center;
+  background-size: cover;
+      
+        
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -109,13 +114,11 @@ box-shadow: 0 0 10px #AA9D58}
 @media screen and (min-width:768px) {
 
   .bacgraund-top{
-    min-width: 768px;
+  max-width: 768px;
   min-height: 776px;
   background-image: url(../img/order/background-tablet.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
   margin-bottom: 100px;
-  background-position: center;
   }
   
   @media (min-device-pixel-ratio: 2),
@@ -166,11 +169,9 @@ padding-bottom: 79px;}
 @media screen and (min-width:1280px) {
 
   .bacgraund-top{
-    min-width: 768px;
-  min-height: 690px;
+  max-width:1282px;;
   background-image: url(../img/order/background-1280.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
   margin-bottom: 150px;
   }
   
@@ -216,11 +217,9 @@ gap: 50px;}
 
 @media screen and (min-width:1440px) {
   .bacgraund-top {
-      min-width: 768px;
-      min-height: 690px;
+      max-width: 1440px;
       background-image: url(../img/order/background-desktop1440.jpg);
       background-repeat: no-repeat;
-      background-size: 100%;
     }
   
     @media (min-device-pixel-ratio: 2),
