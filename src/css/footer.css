@@ -1,7 +1,7 @@
 
 .footer {
     padding-top: 40px;
-    height:649px;
+    padding-bottom: 293px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
     background-image: url(../img/footer/ornament-mob.png);
     background-repeat: no-repeat;
@@ -62,9 +62,9 @@ margin-bottom: 40px;
   /* Версія для планшета */
   @media screen and (min-width: 768px) {
      .footer {
-      height: 370px;
       background-image: url(../img/footer/ornment-tablet.png);
       background-position: right;
+      padding-bottom: 40px;
       
     }
     @media (min-device-pixel-ratio: 2),
@@ -98,7 +98,7 @@ margin-bottom: 40px;
   @media screen and (min-width: 1280px) {
     .footer {
       background-image: url(../img/footer/ornament-desktop1280.png);
-      height: 363px;
+      
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

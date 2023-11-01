@@ -24,6 +24,8 @@ background-color: #1C2225;
 @media screen and (min-width:1280px) {
     .container {
         max-width: 1100px;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
 }

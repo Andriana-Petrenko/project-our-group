@@ -27,6 +27,9 @@
 .collection-list-item {
     margin-bottom: 20px;
     width: 100%;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 300ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .collection-list-item:last-child {
@@ -34,15 +37,9 @@
 }
 
 .collection-list-item:hover {
-    box-shadow:
-        1px 1px #ECD979,
-        2px 2px #ECD979,
-        3px 3px #ECD979,
-        4px 4px #ECD979,
-        5px 5px #ECD979,
-        6px 6px #ECD979,
-        7px 7px #ECD979;
-    transform: translateX(-6px);
+    border: 1px solid #ecd979;
+    box-shadow: 0 0 10px #AA9D58;
+    transform: scale(1.04);
 }
 
 .container-img {
