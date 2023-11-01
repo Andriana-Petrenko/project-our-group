@@ -26,6 +26,27 @@
 .collection-list-item {
     margin-bottom: 20px;
     width: 100%;
+    transition: transform 0.2s ease-in-out;
+    transition: opasity 0.2s ease-in-out;
+}
+
+.collection-list-item:hover {
+    transform: scale(1.1);
+}
+
+.collection-list-item .element-animation {
+    opacity: 0;
+    transition: all 1s ease-out;
+    transform: scale(0.9);
+}
+
+.collection-list-item.element-show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.collection-list-item:hover {
+    transform: scale(1.06);
 }
 
 .collection-list-item:last-child {
