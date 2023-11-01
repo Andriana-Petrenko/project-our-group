@@ -28,12 +28,25 @@ margin-bottom: 40px;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 25px 40px;
+  
+   }
+
+
+  .nav-link {
+    display: block;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
     text-transform: uppercase;
-    
-      }
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #ECD979;
+  }
+
 
   .moto {
     font-size: 44px;
@@ -42,15 +55,8 @@ margin-bottom: 40px;
     letter-spacing: -0.03em;
     margin-bottom: 80px;
   }
+
   .accent {
-    color: #ECD979;
-  }
-  .nav-link {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: block;
-  }
-  .nav-link:hover,
-  .nav-link:focus {
     color: #ECD979;
   }
   /* Версія для планшета */
