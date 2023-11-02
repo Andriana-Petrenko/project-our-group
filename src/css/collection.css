@@ -36,10 +36,11 @@
     margin-bottom: 0;
 }
 
-.collection-list-item:hover {
+.collection-list-item:hover,
+.collection-list-item:focus {
     border: 1px solid #ecd979;
     box-shadow: 0 0 10px #AA9D58;
-    transform: scale(1.01);
+    transform: scale(1.001);
     border-radius: 5px;
 }
 
