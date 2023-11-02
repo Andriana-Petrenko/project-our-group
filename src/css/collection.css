@@ -39,7 +39,8 @@
 .collection-list-item:hover {
     border: 1px solid #ecd979;
     box-shadow: 0 0 10px #AA9D58;
-    transform: scale(1.04);
+    transform: scale(1.01);
+    border-radius: 5px;
 }
 
 .container-img {
