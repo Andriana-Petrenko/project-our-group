@@ -4,6 +4,7 @@ const mobMenu = document.getElementById("menu-navigation");
 const mobMenuItems = mobMenu.querySelectorAll("li");
 const targetDiv = document.getElementById("mob-menu");
 
+
 openButton.addEventListener("click", function() {
     targetDiv.classList.add("is-open");
 });

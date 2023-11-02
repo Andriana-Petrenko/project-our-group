@@ -27,9 +27,7 @@
 .collection-list-item {
     margin-bottom: 20px;
     width: 100%;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 300ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .collection-list-item:last-child {
@@ -38,10 +36,7 @@
 
 .collection-list-item:hover,
 .collection-list-item:focus {
-    border: 1px solid #ecd979;
-    box-shadow: 0 0 10px #AA9D58;
-    transform: scale(1.001);
-    border-radius: 5px;
+    transform: scale(1.04);
 }
 
 .container-img {
