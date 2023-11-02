@@ -63,8 +63,11 @@
   fill: #FCF9F9;
   opacity: 0.8;
 }
-.header-social-item:hover{  
+.header-social-item:hover,
+.header-social-item:focus,
+.header-social-item:active{  
   border-radius: 15px;
+  
 }
 
 .header-social-link:hover,
@@ -74,6 +77,7 @@
   border: 1px solid #ECD979;
   position: relative;
   box-shadow: inset 0 0 10px #aa9d58;
+  outline: transparent;
 }
 
 .header-burger-btn {
@@ -84,16 +88,18 @@
   align-items: center;
   cursor: pointer;
   transition: 250ms stroke cubic-bezier(0.4, 0, 0.2, 1);
-}
+outline: transparent;}
 
 .header-burger-icon {
   stroke: #ECD979;
   opacity: 1;
   
 }
-.header-burger-btn:hover .header-burger-icon{
+.header-burger-btn:hover .header-burger-icon,
+.header-burger-btn:focus .header-burger-icon{
   stroke: #FCF9F9;
   opacity: 0.8;
+  
 }
 
 
@@ -181,13 +187,15 @@
   justify-content: center;
   align-items: center;
   transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .mob-close-icon {
   width: 100%;
   height: 100%;
 }
-.mob-close-btn:hover{
+.mob-close-btn:hover,
+.mob-close-btn:focus{
   transform: scale(0.7);
 }
 
@@ -205,6 +213,7 @@
   /* 128.571% */
   text-transform: uppercase;
   position: relative;
+  
 }
 .mob-navigation-link::after {
   content: "";
@@ -251,6 +260,7 @@
   .mob-close-btn {
     width: 44px;
     height: 44px;
+    outline: transparent;
   }
 
   .mob-navigation-list {
@@ -303,7 +313,8 @@
     position: relative;
   }
 
-  .header-navigation-link:hover {
+  .header-navigation-link:hover,
+  .header-navigation-link:focus{
     color: #ECD979;
   }
 
@@ -319,7 +330,8 @@
     transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .header-navigation-link:hover::after {
+  .header-navigation-link:hover::after,
+    .header-navigation-link:focus::after {
     width: 100%;
     transform: scaleX(1);
   }
@@ -330,7 +342,7 @@
     padding: 14px 28px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
-
+ outline: transparent;
     color: #FCF9F9;
     font-size: 14px;
     line-height: 1.43;
@@ -341,7 +353,8 @@
   .header-soc-wrap{
     display: flex;
   }
-  .header-tel:hover {
+  .header-tel:hover,
+  .header-tel:focus  {
     border-color: #ECD979;
     box-shadow: inset 0 0 10px #aa9d58;
   }

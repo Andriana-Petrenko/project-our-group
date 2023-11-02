@@ -45,6 +45,7 @@ margin-bottom: 40px;
   .nav-link:hover,
   .nav-link:focus {
     color: #ECD979;
+    outline: transparent;
   }
 
 
