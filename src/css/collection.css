@@ -74,9 +74,6 @@
 
 @media (min-width: 768px) {
 
-    /* .section-collection {
-        width: 768px;
-    } */
 
     .ellipsis {
         white-space: nowrap;
@@ -134,11 +131,6 @@
 /*----------------------------------------------------desktop (1280)-------------------------------*/
 @media (min-width: 1280px) {
 
-    /* .section-collection {
-        width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
     .collection {
         padding-bottom: 150px;
