@@ -64,6 +64,9 @@ outline: transparent;}
   display: none;
 }
 
+
+
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 106px;
